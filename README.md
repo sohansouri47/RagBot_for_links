@@ -9,6 +9,12 @@ This repository demonstrates how to implement a **Retrieval-Augmented Generation
 - **📜 Streamlit**: Interactive web interface for querying and results display.
 - **📚 Ollama Embeddings**: Generates embeddings for vector similarity search.
 
+##Tools 
+LangChain            ![LangChain](https://img.shields.io/badge/LangChain-%2300599C.svg?style=flat&logo=langchain&logoColor=white) 
+Streamlit            ![Streamlit](https://img.shields.io/badge/Streamlit-%23FF4B4B.svg?style=flat&logo=streamlit&logoColor=white) 
+FAISS                ![FAISS](https://img.shields.io/badge/FAISS-%234285F4.svg?style=flat&logo=faiss&logoColor=white) 
+Groq API             ![Groq](https://img.shields.io/badge/Groq-%23FFAA00.svg?style=flat&logo=groq&logoColor=white) 
+Ollama Embeddings    ![Ollama](https://img.shields.io/badge/Ollama-%2300555A.svg?style=flat&logo=ollama&logoColor=white) 
 ---
 
 ## Workflow
@@ -137,37 +143,3 @@ if prompt:
 5. **Results Display**:
    - The app displays the generated answer and the relevant document chunks.
 
----
-
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/chatgroq-demo.git
-   cd chatgroq-demo
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Add your Groq API key to a `.env` file:
-   ```
-   GROQ_API_KEY=your_api_key_here
-   ```
-
-4. Run the app:
-   ```bash
-   streamlit run app.py
-   ```
-
----
-
-## Demo
-- Enter a query in the text box.
-- View the generated answer and the relevant document chunks in the results.
-
----
-
-## License
-This project is licensed under the MIT License.
