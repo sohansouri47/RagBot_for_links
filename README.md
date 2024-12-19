@@ -1,3 +1,9 @@
+![LangChain](https://img.shields.io/badge/LangChain-%2300599C.svg?style=flat&logo=langchain&logoColor=white) 
+![Streamlit](https://img.shields.io/badge/Streamlit-%23FF4B4B.svg?style=flat&logo=streamlit&logoColor=white) 
+![FAISS](https://img.shields.io/badge/FAISS-%234285F4.svg?style=flat&logo=faiss&logoColor=white) 
+![Groq](https://img.shields.io/badge/Groq-%23FFAA00.svg?style=flat&logo=groq&logoColor=white) 
+![Ollama](https://img.shields.io/badge/Ollama-%2300555A.svg?style=flat&logo=ollama&logoColor=white) 
+
 # Retrieval-Augmented Generation (RAG) Workflow with LangChain, Streamlit, and Groq
 
 This repository demonstrates how to implement a **Retrieval-Augmented Generation (RAG)** workflow using LangChain, Streamlit, and the Groq API. The app retrieves relevant document chunks based on a user query and uses a language model to generate an accurate response grounded in the retrieved context.
@@ -8,12 +14,7 @@ This repository demonstrates how to implement a **Retrieval-Augmented Generation
 - **💾 FAISS**: Efficient vector store for document similarity search.
 - **📜 Streamlit**: Interactive web interface for querying and results display.
 - **📚 Ollama Embeddings**: Generates embeddings for vector similarity search.
-
-![LangChain](https://img.shields.io/badge/LangChain-%2300599C.svg?style=flat&logo=langchain&logoColor=white) 
-![Streamlit](https://img.shields.io/badge/Streamlit-%23FF4B4B.svg?style=flat&logo=streamlit&logoColor=white) 
-![FAISS](https://img.shields.io/badge/FAISS-%234285F4.svg?style=flat&logo=faiss&logoColor=white) 
-![Groq](https://img.shields.io/badge/Groq-%23FFAA00.svg?style=flat&logo=groq&logoColor=white) 
-![Ollama](https://img.shields.io/badge/Ollama-%2300555A.svg?style=flat&logo=ollama&logoColor=white) 
+- 
 ---
 
 ## Workflow
