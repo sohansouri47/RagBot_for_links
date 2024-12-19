@@ -9,7 +9,6 @@ This repository demonstrates how to implement a **Retrieval-Augmented Generation
 - **📜 Streamlit**: Interactive web interface for querying and results display.
 - **📚 Ollama Embeddings**: Generates embeddings for vector similarity search.
 
-## Tools 
 ![LangChain](https://img.shields.io/badge/LangChain-%2300599C.svg?style=flat&logo=langchain&logoColor=white) 
 ![Streamlit](https://img.shields.io/badge/Streamlit-%23FF4B4B.svg?style=flat&logo=streamlit&logoColor=white) 
 ![FAISS](https://img.shields.io/badge/FAISS-%234285F4.svg?style=flat&logo=faiss&logoColor=white) 
