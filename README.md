@@ -1,9 +1,3 @@
-![LangChain](https://img.shields.io/badge/LangChain-%2300599C.svg?style=flat&logo=langchain&logoColor=white) 
-![Streamlit](https://img.shields.io/badge/Streamlit-%23FF4B4B.svg?style=flat&logo=streamlit&logoColor=white) 
-![FAISS](https://img.shields.io/badge/FAISS-%234285F4.svg?style=flat&logo=faiss&logoColor=white) 
-![Groq](https://img.shields.io/badge/Groq-%23FFAA00.svg?style=flat&logo=groq&logoColor=white) 
-![Ollama](https://img.shields.io/badge/Ollama-%2300555A.svg?style=flat&logo=ollama&logoColor=white) 
-
 # Retrieval-Augmented Generation (RAG) Workflow with LangChain, Streamlit, and Groq
 
 This repository demonstrates how to implement a **Retrieval-Augmented Generation (RAG)** workflow using LangChain, Streamlit, and the Groq API. The app retrieves relevant document chunks based on a user query and uses a language model to generate an accurate response grounded in the retrieved context.
@@ -62,7 +56,7 @@ from dotenv import load_dotenv
 
 ### Loading Documents
 ```python
-st.session_state.loader = WebBaseLoader("https://docs.smith.langchain.com/")
+st.session_state.loader = WebBaseLoader({YourLink})
 st.session_state.docs = st.session_state.loader.load()
 ```
 - **WebBaseLoader**: Downloads documents from the given URL.
@@ -131,15 +125,5 @@ if prompt:
 
 ---
 
-## How It Works
-1. **Preprocessing**:
-   - Loads documents, splits them into chunks, and embeds them in a FAISS vector store.
-2. **User Query**:
-   - The user submits a question via the Streamlit interface.
-3. **Context Retrieval**:
-   - Relevant chunks are retrieved from the FAISS vector store.
-4. **Answer Generation**:
-   - The Groq LLM generates an answer based on the retrieved context.
-5. **Results Display**:
-   - The app displays the generated answer and the relevant document chunks.
+
 
