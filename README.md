@@ -14,7 +14,7 @@ This repository demonstrates how to implement a **Retrieval-Augmented Generation
 - **💾 FAISS**: Efficient vector store for document similarity search.
 - **📜 Streamlit**: Interactive web interface for querying and results display.
 - **📚 Ollama Embeddings**: Generates embeddings for vector similarity search.
-- 
+
 ---
 
 ## Workflow
